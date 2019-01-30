@@ -1,2 +1,2 @@
 # GifTastic
-Try out ths GifTastic sit! 
+Try out ths GifTastic site! 
