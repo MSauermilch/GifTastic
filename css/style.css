@@ -1,3 +1,24 @@
 .body { 
     
 }
+
+#header {
+    font-family: 'Eater', cursive;
+    font-size: 64px;
+    margin: 10px;
+
+}
+
+#buttons{
+    border:solid blue 3px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.gif {
+    border-radius: 4px;
+    margin: 4px;
+    float: left;
+}
