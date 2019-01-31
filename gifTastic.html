@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" type='text/css' href="assets/css/reset.css">
-    <link rel="stylesheet" type='text/css' href="assets/css/style.css">
+    <link rel="stylesheet" type='text/css' href="css/reset.css">
+    <link rel="stylesheet" type='text/css' href="css/style.css">
     <script src="C:/Users/Mad Matt/Desktop/essentials/jQueryLS.js"></script>
-   
+    <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet"> <!--Google font-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
 
@@ -19,47 +19,56 @@
 
       <div class="container-fluid">
 
-        <div><H1>T.F.W.O.</H1></div>
-        <div class="row" style="height: 30px; width: 200%; background-color: blue ";>
-            <span class="border">
-                <div id="buttons">
+        <div id= "header" class="row">T.F.W.O.</div>
+
+          <div class="row">
+            <div class="col my-col">
+                <div id="buttons"> <!--create buttons in jquery-->
                     <!-- <a class="button" href="#">button</a> -->
-                    <button type="button" class="btn btn-secondary btn-sm" data-things="oil projections">trips</button>
-                    <!-- <button type="button" class="btn btn-secondary btn-sm" data-location="knives">knives</button> -->
-                    <button type="button" class="btn btn-secondary btn-sm" data-location="tazers">tazers</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-location="horror">horror</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-location="sex">hot stuff</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-location="cartoons">cartoons</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-location="icons">idles</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-people="cults">religion</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-things="eyes">sight</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-loations="temples">temples</button>
-                    <button type="button" class="btn btn-secondary btn-sm" data-things="oil projections">trips</button>
-
-
-
-                    
-
-
-
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="lsd">trips</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="aliens">visitors</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="horror">horror</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="boogeyman">night bumps</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="cartoons">cartoons</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="beetljuice">idles</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="cult">religion</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="eyes">sight</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="temples">temples</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-item="tv">television</button>
+                    <!-- weed -->
                 </div>
-            </span></div>
+              </div>
+          </div>
+
+        <!-- <div class="row my-row">
+          <div class="col">
+            <div id="results"> 
+
+              </div>
+          </div>
+        </div>-->
+
+        <div class="row my-row no-gutter">
+          <div class="col-md-4 offset-md-8"> <!--submit col-->
+
+            <div class="input-group m-2" style="width: 300px;">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="submitButton">submit</span>
+              </div>
+                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+            </div>
+          </div>
+        </div>
 
         <div class="row my-row">
-          <div class="col">
-              <div id="results">
-              </div>
-            </div>
-          <div class="col">
-              <div class="input-group m-2" style="width: 400px;">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="submitButton">submit</span>
-                  </div>
-                  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+            <div class="col">
+              <div id="results"> <!--results col-->
+  
                 </div>
             </div>
-        </div>
+          </div>
+
       </div>
-    <script src='assets/javascript/work.js'> </script>   
+    <script src='javascript/work.js'> </script>   
   </body>
 </html>
