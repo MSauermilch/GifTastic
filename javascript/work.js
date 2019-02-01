@@ -25,7 +25,7 @@
     
               for (var i = 0; i < results.length; i++) {    
     
-                //if (results[i].rating !== "r" && results[i].rating !== "pg-13") {   //add rating on/off switch
+               
     
                   var gifDiv = $("<div>").addClass("gif");      // Creating a div for the gif
                   var rating = results[i].rating;  // Storing result item's rating
@@ -36,7 +36,7 @@
                   gifDiv.append(p); // Appending Paragraph
 
                   $("#results").prepend(gifDiv); // Prepending the gifDiv to the "#gifs-appear-here" div in the HTML
-                // }
+                
               }
             });
         });
