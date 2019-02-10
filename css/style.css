@@ -1,15 +1,22 @@
-.body { 
-    
+body {
+    background-image: url(../ideas_folder/worms.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
 }
 
-#header {
+#title {
+    /* color: white; */
     font-family: 'Eater', cursive;
     font-size: 64px;
     margin: 10px;
 
 }
 
-#buttons{
+#header {
+    background-image: url(../ideas_folder/spiral.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     border:solid blue 3px;
     border-radius: 8px;
     padding: 10px;
@@ -17,8 +24,8 @@
 
 }
 
-.gif {
-    border-radius: 4px;
-    margin: 4px;
+.gif{
+    margin: 10px;
     float: left;
+
 }
