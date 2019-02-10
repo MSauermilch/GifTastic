@@ -15,7 +15,10 @@
         button.attr("data-item",theme);
         $("#buttonsDiv").append(button);
         };
-        
+
+      //button spacing
+      $("button").css("margin", "10px");
+
       setClickEvent();
     };
 
@@ -27,15 +30,12 @@
       topics.push(newGif);
       console.log(topics);
 
-
-      
       buttGen();
     });
 
-    //make compairison so that multible same enteries cant not be made, if so send alert.
-
-    function setClickEvent() {                       //Function by Richard
-    $("button").on("click", function() {            //everything functions untill new buttons is added
+    //make compairison so that multible same enteries cant not be made, if so send alert. //Function by Richard
+    function setClickEvent() {                       
+    $("button").on("click", function() {
           var item = $(this).attr("data-item");
           console.log(item);
 
