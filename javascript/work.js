@@ -94,9 +94,6 @@ var topics = [ "lsd","aliens","horror","boogeyman","cartoons","beetlejuice","cul
       });
 
 
-
-
-
       //   if ($(this).attr("src") === $(this).attr("data-still-url")) {
       //       $(this).attr("src", $(this).attr("data-animated-url")) }
       //   else if ($(this).attr("src") === $(this).attr("data-animated-url")) {
