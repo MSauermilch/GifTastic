@@ -1,8 +1,8 @@
 body {
-    background-image: url(../ideas_folder/worms.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/worms2.jpg);
+    /* background-repeat: no-repeat; */
     background-size: 100% auto;
-
+    background-repeat: repeat-y;
 }
 
 #title {
@@ -14,7 +14,7 @@ body {
 }
 
 #header {
-    background-image: url(../ideas_folder/spiral.jpg);
+    background-image: url(../images/spiral.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     border:solid blue 3px;

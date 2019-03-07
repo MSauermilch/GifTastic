@@ -2,10 +2,10 @@
 //Topics to get the ball rolling.
 var topics = [ "lsd","aliens","horror","boogeyman","cartoons","beetlejuice","cult","eyes","weed","tv"]; 
 
+    //creating the first 10 buttons from the topics.
     function buttGen(){
       $("#buttonsDiv").empty();
 
-      //creating the first 10 buttons from the topics.
       for (i=0; i< topics.length; i++) {  
         var theme = topics[i];
         var button = $("<button>");
@@ -15,7 +15,6 @@ var topics = [ "lsd","aliens","horror","boogeyman","cartoons","beetlejuice","cul
 
       $("button").css("margin", "10px");
 
-      
       setClickEvent();
     };
 
@@ -67,33 +66,10 @@ var topics = [ "lsd","aliens","horror","boogeyman","cartoons","beetlejuice","cul
           });
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      //this function grabs switchs between still and animated states.
       $(document).on("click", ".image", function(){
         var imageSelect = $(this).attr("data-state");
-        console.log(this)
+          console.log(this)
         if (imageSelect === "still") {
           $(this).attr("data-state", "animate"); 
           $(this).attr("src", $(this).attr("data-animated-url"));
@@ -102,10 +78,3 @@ var topics = [ "lsd","aliens","horror","boogeyman","cartoons","beetlejuice","cul
           $(this).attr("src", $(this).attr("data-still-url"));
         }
       });
-
-
-      //   if ($(this).attr("src") === $(this).attr("data-still-url")) {
-      //       $(this).attr("src", $(this).attr("data-animated-url")) }
-      //   else if ($(this).attr("src") === $(this).attr("data-animated-url")) {
-      //       $(this).attr("src", $(this).attr("data-still-url")) }
-      // });
